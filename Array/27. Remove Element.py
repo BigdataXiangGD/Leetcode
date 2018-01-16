@@ -11,3 +11,6 @@ class Solution(object):
                 nums[j] = nums[i]
                 j += 1
         return j
+
+    
+    #Time O（n）; Space O(1)
