@@ -11,12 +11,6 @@
 
 
 
-
-
-
-
-
-
 def insert_sort(array):
     for i in range(0,len(array)):
         key = array[i]
@@ -29,3 +23,8 @@ def insert_sort(array):
     return array
 
 print(insert_sort(array = [3,4,6,2,54,77,24,56,545,56,4,7,8,67]))
+
+
+
+
+
