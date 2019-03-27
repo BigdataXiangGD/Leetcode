@@ -27,10 +27,10 @@ int romanToInt(char* s) {
     int N = strlen(s);
     for(int i=0; i<N; i++){
         if(i!=N-1){
-        if (toNumber(s[i]) < toNumber(s[i+1])){
-            res = res - toNumber(s[i]);
-        } else {
-            res = res + toNumber(s[i]);
+            if (toNumber(s[i]) < toNumber(s[i+1])){
+                res = res - toNumber(s[i]);
+        }   else {
+                res = res + toNumber(s[i]);
         }
     }
         else{
