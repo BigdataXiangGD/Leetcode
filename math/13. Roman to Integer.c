@@ -32,7 +32,9 @@ int romanToInt(char* s) {
         } else {
             res = res + toNumber(s[i]);
         }
-    }else{res = res + toNumber(s[N-1]);}
+    }
+        else{
+            res = res + toNumber(s[N-1]);}
     }
     return res;
 }
